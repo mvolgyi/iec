@@ -1,0 +1,46 @@
+.valor-item{
+  min-height: 150px;
+  padding: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex: 1 1;
+}
+
+.valor-icono{
+position: relative;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+
+.valor-texto{
+padding-left: 30px;
+}
+
+.valor-texto h3{
+margin: 0 0 10px 0;
+font-size: 25px;
+font-weight: 600;
+}
+
+.valor-texto p {
+margin: 0;
+font-size: 18px;
+font-weight: 400;
+}
+
+.fondo-item-primario{
+background-color: #092348;
+}
+.fondo-item-primario .valor-texto {
+color: #b0daf2;
+}
+
+.fondo-item-secundario{
+background-color: #b0daf2;
+}
+.fondo-item-secundario .valor-texto {
+color: #092348;
+}
