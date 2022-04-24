@@ -1,14 +1,13 @@
 .fila{
   display: flex;
-  flex-direction: row;
   flex: 1 1;
 }
-.servicios-titulo{
+
+.proyectos-titulo{
   color: #b0daf2;
   font-size: 2.5em;
   display: flex;
   align-items: center;
   justify-content: center;
   margin-bottom: 20px;
-  margin-top: 10px;
 }

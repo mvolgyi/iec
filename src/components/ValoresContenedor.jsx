@@ -11,8 +11,8 @@ function ValoresContenedor() {
       esCasco={true}
       />
       <ValoresInd 
-       titulo='TRAYECTORIA'
-       texto='Más de 15 años desarrollando actividades en todo el NEA'
+       titulo='SOLUCIONES'
+       texto='Brindamos respuestas y soluciones en todo tipo de proyectos electricos'
        esLamparita={true}
        />
       <ValoresInd 

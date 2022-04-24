@@ -1,6 +1,6 @@
 .servicio-item {
   position: relative;
-  width: 100%;
+  width: 50%;   
   text-align: center;
  
   margin: 0 20px 20px 20px;
@@ -37,6 +37,9 @@
 .servicio-overlay p {
   margin: 0;
   color: #ffffff;
+  font-size: 1.5em;
+  width: 70%;
+  
 }
 .servicio-text {
   display: flex;

@@ -12,25 +12,25 @@ function ServiciosContenedor() {
       <div className='fila' data-aos="zoom-out-up" data-aos-duration="1000">
         <Servicios
           imagen='service-1'
-          texto='ufff un monton de cosas y servicios que hacen, re loco el chabon'
+          texto='Ofrecemos opciones de relevamiento y análisis de instalación existentes, brindando las mejores alternativas económicas en el área eléctrica y automatización industrial. Todo esto con sus informes de estados y adecuación a normativa Vigente'
           titulo='Proyectos Electricos'
         />
         <Servicios
-          imagen='service-1'
-          texto='ufff un monton de cosas y servicios que hacen, re loco el chabon'
-          titulo='Proyectos Electricos'
+          imagen='service-2'
+          texto='Diseñamos y desarrollamos cada una de las etapas de sus proyectos de ingeniería eléctrica y automatización, estudios de viabilidad, construcción de planos, memorias de calculo, cubicaciones, manuales y especificaciones técnicas, entre otros, adaptándonos asi a sus requerimiento y a las necesidades del proceso'
+          titulo='Ingeniería Eléctrica'
         />
       </div>
       <div className='fila' data-aos="zoom-out-up" data-aos-duration="1500">
         <Servicios
-          imagen='service-1'
-          texto='ufff un monton de cosas y servicios que hacen, re loco el chabon'
-          titulo='Proyectos Electricos'
+          imagen='service-3'
+          texto='Diseñamos y desarrollamos Tableros Eléctricos de acuerdo a sus necesidades, dando diversas alternativas de Control y Automatización.'
+          titulo='Tableros eléctricos'
         />
         <Servicios
-          imagen='service-1'
-          texto='ufff un monton de cosas y servicios que hacen, re loco el chabon'
-          titulo='Proyectos Electricos'
+          imagen='service-4'
+          texto='Nos hacemos cargo de todo el proceso de suministra, montar y poner en servicio los equipos eléctricos con sus canalizaciones y tendidos de conductores asociados a diversos proyectos industriales.'
+          titulo='Montaje Eléctrico'
         />
       </div>
       
