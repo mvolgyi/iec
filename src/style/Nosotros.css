@@ -1,6 +1,6 @@
 
 .navwrap{
-    background: transparent;
+    background: #fff;
     display: flex;
     justify-content: center;   
 }
@@ -10,41 +10,43 @@
     display:flex;
     align-content: center;
     justify-content: center;
-    padding: 25px 0 25px 0;
+    padding: 45px 0;
+
 }
 
 .imgwrap{
-    margin: 20px;
+    padding: 0 15px;
 }
 
 .nosimg{
-    width: 450px;
-    height: auto;
+    width: auto;
+    height: 600px;
 
 
 }
 
 .aboutwrap{
     display: grid;
-    margin: 20px;
+    padding: 15px;
     width: 450px;
+    font-size: 1.5rem;
 }
 
 .aboutheader{
-    color:#FDE74C;
-    font-size: 20px;
+    color:#fdbe33;
+    
     
 }
 
 .abouttitle{
-    font-size: 40px;
+    font-size: 2.3rem;
     color: rgb(9 35 72);
 
 }
 
 .abouttext{
+    display: flex;
     color:#010606;
-    font-size: 15px;
 }
 
 

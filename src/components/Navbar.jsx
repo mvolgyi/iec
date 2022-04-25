@@ -13,26 +13,28 @@ class Navbar extends Component{
     }
 
     render(){
-        return(  
+        return(
+            <nav className='navcontainer'>  
             <div className='navbaritems'>
                 <h1 className='navbar-logo'>IEC</h1>
                 <div className='menu-icon' onClick={this.handleClick} >
                     <i className={this.state.clicked ? 'fas fa-times' : 'fas fa-bars'}></i>
                 </div>
-                <ul className={this.state.clicked ? 'nav-menu active': 'nav-menu'}>
+                <div className={this.state.clicked ? 'nav-menu active': 'nav-menu'}>
                     {menuItems.map((item,index)=> {
                         return(
-                            <li key={index}>
+                            <div key={index}>
                                 <a className={item.cName} href={item.url}>
                                     {item.title}
                                 </a>
-                            </li>
+                            </div>
                         )
                     })}
                     
-                </ul>
+                </div>
                 
             </div>
+            </nav>
         )
     }
 

@@ -2,8 +2,8 @@
     
     position: relative;
     margin-top: 45px;
-    padding-top: 40px;
-    background: #030f27;
+    padding-top: 5px;
+    background: linear-gradient(45deg, #b0daf2  0% , #030f27 40%);
     color: #ffffff;
     display: flex;
     align-content: center;
@@ -34,13 +34,12 @@
 }
 
 .ctitulo{
-    margin-right: 20px;
+    color: #fdbe33;
 }
 
 .datacwrap{
     display: flex;
     justify-items: center;
-    margin: 8px 20px;
 }
 
 .fa-business-time{
@@ -81,14 +80,22 @@
 
 .fctext{
     font-size: 20px;
+    text-shadow: 0 0 8px #030f27,
+        0 0 16px #030f27,
+        0 0 32px #030f27,
+        0 0 32px #030f27,
+        0 0 50px #030f27;
 }
 
 .copyfooter{
-    padding: 30px;
-    background: #030f27;
-    color:#ffffff;
+    justify-items: flex-start;
+    display: flex;
+    padding: 10px;
+    background: linear-gradient(90deg, #b0daf2  0% , #030f27 40%);
+    color:#030f27;
     font-size: 20px;
 }
+
 
 
 
