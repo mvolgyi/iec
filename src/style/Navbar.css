@@ -1,0 +1,126 @@
+
+.navbaritems{
+    border-radius: 5px;
+    height: 115px;
+    width: 100%;
+    background: linear-gradient(90deg, rgb(9 35 72) 0% , rgb(43 123 176) 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    transition: all 0.3s ease-in-out;
+    position: fixed;
+    z-index: 3;
+    
+}
+
+.navbar-logo{
+    color: #fff;
+    display:flex;
+    justify-self: start;
+    cursor:pointer;
+    margin-left: 2rem;
+}
+
+.fa-react{
+    margin-left: 0.5rem;
+    font-size: 1.6rem;
+}
+
+.nav-menu{
+    display: flex;
+    list-style: none;
+    text-align: center;
+    width: 70vw;
+    justify-content: start;
+    margin-left:  2rem;
+}
+
+.nav-links{
+    color:white;
+    text-decoration: none;
+    padding: 0.5rem 0.5rem;
+}
+
+.nav-links:hover{
+    background-color: rgb(9 35 72);
+    color: #FDE74C;
+    border-radius: 4px;
+    transition: all 0.2s ease-out;
+}
+.fa-bars{
+    color: #fff;
+}
+.nav-link-mobile{
+    display: none;
+}
+.menu-icon{
+    display: none;
+}
+
+@media screen and (max-width: 960px){
+    .navwrap{
+        display:block;
+    }
+
+    .navbaritems{
+        transition: all 0.3s ease-out;
+        border-radius: 0;
+        width: 100%;
+    }
+    .nav-menu{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: auto;
+        position: absolute;
+        top: 115px;
+        left: -200%;
+        opacity: 1;
+        transition: all 0.5s ease-in-out;
+    }
+
+    .nav-menu.active{
+    background: linear-gradient(90deg, rgb(9 35 72) 0% , rgb(43 123 176) 100%);
+    left: 0;
+    opacity: 1;
+    transition: all 0.5s ease-in-out;
+    z-index: 1;
+    }
+
+    .nav-links {
+        text-align: center;
+        padding: 2rem 0;
+        width: 100%;
+        display: grid;
+    }
+
+    .nav-links:hover{
+        background-color: rgb(9 35 72);
+        color:#FDE74C;
+        border-radius: 0;
+    }
+
+    .navbar-logo{
+        position:absolute;
+        top: 0;
+        left: 0;
+        transform: translate(25%,50%);
+    }
+
+    .menu-icon{
+        display: block;
+        position:absolute;
+        top:0;
+        right: 0;
+        transform: translate(-200%,60%);
+        font-size: 1.8rem;
+        cursor: pointer;
+    }
+
+    .fa-times{
+        color: #fff;
+    }
+
+
+}

@@ -1,0 +1,106 @@
+.footerbox{
+    
+    position: relative;
+    margin-top: 45px;
+    padding-top: 40px;
+    background: #030f27;
+    color: #ffffff;
+    display: flex;
+    align-content: center;
+    justify-content: space-around;
+}
+
+.infowrap{
+    display: flex;
+}
+
+.datawrap{
+    display: grid;
+    justify-items: center;
+    margin: 8px 20px;
+    padding: 50px 0;
+}
+
+.ftext{
+    margin-top: 10px;
+}
+
+.contactwrap{
+    position: relative;
+    display: grid;
+    justify-items: flex-end;
+
+
+}
+
+.ctitulo{
+    margin-right: 20px;
+}
+
+.datacwrap{
+    display: flex;
+    justify-items: center;
+    margin: 8px 20px;
+}
+
+.fa-business-time{
+    font-size: 20px;
+    padding-top: 5px;
+    margin-right: 10px;
+}
+
+.fa-mobile-screen-button{
+    font-size: 20px;
+    padding-top: 5px;
+    margin-right: 10px;
+}
+
+.fa-envelopes-bulk{
+    font-size: 20px;
+    padding-top: 5px;
+    margin-right: 10px;
+}
+
+.fa-map{
+    font-size: 20px;
+    padding-top: 5px;
+    margin-right: 10px;
+}
+
+.fa-phone-flip{
+    font-size: 20px;
+    padding-top: 5px;
+    margin-right: 10px;
+}
+
+.fa-envelope-open-text{
+    font-size: 20px;
+    padding-top: 5px;
+    margin-right: 10px;
+}
+
+.fctext{
+    font-size: 20px;
+}
+
+.copyfooter{
+    padding: 30px;
+    background: #030f27;
+    color:#ffffff;
+    font-size: 20px;
+}
+
+
+
+
+@media screen and (max-width: 960px){
+    .footerbox{
+    
+        position: relative;
+        color: #ffffff;
+        display: grid;
+        align-content: center;
+        justify-content: center;
+    }
+
+}
