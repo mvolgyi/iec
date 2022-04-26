@@ -1,21 +1,27 @@
 import './App.css';
-import Carrousel from './components/Carrousel';
-import ValoresContenedor from './components/ValoresContenedor';
-import ServiciosContenedor from './components/ServiciosContenedor';
-import ProyectosContenedor from './components/ProyectosContenedor';
+import {BrowserRouter, Routes, Route} from 'react-router-dom';
 import Navbar from './components/Navbar';
-import Nosotros from './components/Nosotros';
-import Footer from './components/Footer'
+import Footer from './components/Footer';
+import Home from './pages/Home.jsx';
+import NosotrosPage from './pages/NosotrosPage';
+import ServiciosPages from './pages/ServiciosPages';
+
+
+
+
 function App() {
   return (
     <div className="App">
-      <Navbar />
-      <Carrousel />
-      <ValoresContenedor />
-      <Nosotros />
-      <ServiciosContenedor />
-      <ProyectosContenedor />
-      <Footer />
+      <BrowserRouter>
+        <Navbar />
+        <Routes>
+          <Route path='/' exact element={<Home/>} />
+          <Route path='/nosotros' exact element={<NosotrosPage/>} />
+          <Route path='/servicios' exact element={<ServiciosPages/>} />
+
+        </Routes>
+        <Footer />
+      </BrowserRouter>
     </div>
   );
 }
