@@ -1,3 +1,9 @@
+.contenedor-servicios{
+  width: 1100px;
+  background-color:rgb(92, 63, 25);
+  margin:auto;
+}
+
 .fila{
   display: flex;
   flex-direction: row;

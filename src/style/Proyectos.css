@@ -1,10 +1,9 @@
 .flip-box{
   background-color: transparent;
-  height: 550px;
-  width: 550px;
+  height: 25em;
+  width: 45vw;
   border: 2px solid #b0daf2;
   perspective: 1000px;
-  margin-left: 50px;
   overflow: hidden;
 }
 .flip-box-inner{
@@ -12,10 +11,14 @@
   height: 100%;
   text-align: center;
   transform-style: preserve-3d;
-  transition: transform 1.5s;
+  transition: transform .3s;
 }
 .flip-box:hover .flip-box-inner{
   transform: rotateY(180deg);
+  
+}
+.flip-box:hover{
+  transform: scale(1.02);
 }
 .flip-box-front, .flip-box-back{
   position: absolute;
@@ -30,22 +33,23 @@
 
 .flip-box-front img{
   width: 100%;
+  overflow:auto;
 }
 .flip-box-back{
   background-color: #092348 ;
   color: #b0daf2;
-  transition: transform 0.8s;
+  transition: transform 0.5s;
   transform: rotateY(180deg);    
 }
 .flip-box-texto{
-  margin-top: 20%;
+  margin-top: 10%;
 }
 
 li{
+  justify-content: center;
   margin-top: 10%;
   width: 100%;
   list-style-type: none;
   padding: 0;
-  margin-left: -20px;
   font-size: 1.5em;
 }

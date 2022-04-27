@@ -1,10 +1,11 @@
 import './App.css';
 import {BrowserRouter, Routes, Route} from 'react-router-dom';
-import Navbar from './components/Navbar';
+// import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import Home from './pages/Home.jsx';
 import NosotrosPage from './pages/NosotrosPage';
 import ServiciosPages from './pages/ServiciosPages';
+import Navbar from './components/Navbar';
 
 
 
@@ -13,7 +14,7 @@ function App() {
   return (
     <div className="App">
       <BrowserRouter>
-        <Navbar />
+        <Navbar/>
         <Routes>
           <Route path='/' exact element={<Home/>} />
           <Route path='/nosotros' exact element={<NosotrosPage/>} />

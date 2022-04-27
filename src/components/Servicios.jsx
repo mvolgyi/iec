@@ -17,7 +17,7 @@ function Servicios({ imagen, titulo, texto }) {
       </div>
       <div className="servicio-text">
         <h3>{titulo}</h3>
-        <a className="btn" href={require(`../assets/${imagen}.jpg`)}>+</a>
+        <a className="btn" href='/servicios'>+</a>
       </div>
     </div>
 

@@ -7,7 +7,7 @@ import 'aos/dist/aos.css';
 function ServiciosContenedor() {
   AOS.init()
   return (
-    <div>
+    <div className='contenedor-servicios'>
       <h1 className="servicios-titulo" data-aos="zoom-in" data-aos-duration="1500">Nuestros Servicios</h1>
       <div className='fila' data-aos="zoom-out-up" data-aos-duration="1000">
         <Servicios

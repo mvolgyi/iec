@@ -4,7 +4,7 @@ import '../style/ProyectosContenedor.css';
 
 function ProyectosContenedor() {
   return (
-    <div>
+    <div className='proyectos-contenedor'>
       <h1 className='proyectos-titulo'>Algunos de Nuestros Proyectos</h1>
       <div className='fila'>
       <Proyectos 

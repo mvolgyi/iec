@@ -1,4 +1,7 @@
 .contenedor-valores{
   display: flex;
-  flex: 1 1;
+   flex: 1 1; 
+  width: 100%;
+  /* margin-left: 10%; */
+  justify-content: center;
 }

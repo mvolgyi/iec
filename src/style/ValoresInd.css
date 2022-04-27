@@ -1,10 +1,17 @@
 .valor-item{
-  min-height: 150px;
+  width: 290px;
   padding: 30px;
   display: flex;
   align-items: center;
   justify-content: flex-start;
-  flex: 1 1;
+  border-radius: 25px;
+  border: 1px solid yellow;
+  margin: 0 10px;
+}
+
+.valor-item:hover {
+  transition: 0.5s;
+  transform: scale(1.05);
 }
 
 .valor-icono{
@@ -15,9 +22,6 @@ justify-content: center;
 }
 
 
-.valor-texto{
-padding-left: 30px;
-}
 
 .valor-texto h3{
 margin: 0 0 10px 0;
