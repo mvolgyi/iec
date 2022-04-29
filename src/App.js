@@ -1,11 +1,11 @@
 import './App.css';
 import {BrowserRouter, Routes, Route} from 'react-router-dom';
-// import Navbar from './components/Navbar';
+import Navbar from './components/Navbar';
 import Footer from './components/Footer';
+// paginas
 import Home from './pages/Home.jsx';
 import NosotrosPage from './pages/NosotrosPage';
 import ServiciosPages from './pages/ServiciosPages';
-import Navbar from './components/Navbar';
 
 
 

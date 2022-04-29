@@ -1,36 +1,61 @@
-.footerbox{
-    
-    position: relative;
-    margin-top: 45px;
-    padding-top: 5px;
-    background: linear-gradient(45deg, #b0daf2  0% , #030f27 40%);
-    color: #ffffff;
+.footercontainer{
+    background: linear-gradient(0deg, #b0daf2  0% , #030f27 30%);
     display: flex;
-    align-content: center;
+    flex-direction: column;
+    width: 100%;
+    justify-items: space-between;
+}
+
+.footerbox{
+    position: relative;
+    margin-top: 30px;
+    padding-top: 5px;
+    color: #FFF;
+    display: flex;
+    align-items: center;
     justify-content: space-around;
+    padding-bottom: 10px;
 }
 
 .infowrap{
     display: flex;
+    justify-content: center ;
+    align-items:center ;
+    padding: 0 5px;
 }
 
 .datawrap{
     display: grid;
     justify-items: center;
-    margin: 8px 20px;
-    padding: 50px 0;
+    color: #fdbe33;
+    text-align: center;
+    border-left-style: solid ;
+}
+.datawrapn{
+    display: grid;
+    justify-items: center;
+    text-align: center;
 }
 
 .ftext{
-    margin-top: 10px;
+    color: #ffffff;
+    font-size: 20px;
+    cursor:pointer;
+    padding: 3px 10px;
 }
-
+.ctext{
+    font-size: 20px;
+    padding: 0 10px;
+}
+.ftext:hover{
+    transition: 0.1s all ease-in-out;
+    transform: scale(1.02);
+    opacity: 0.6;
+}
 .contactwrap{
     position: relative;
     display: grid;
     justify-items: flex-end;
-
-
 }
 
 .ctitulo{
@@ -90,8 +115,7 @@
 .copyfooter{
     justify-items: flex-start;
     display: flex;
-    padding: 10px;
-    background: linear-gradient(90deg, #b0daf2  0% , #030f27 40%);
+    padding: 3px 10px;
     color:#030f27;
     font-size: 20px;
 }
@@ -100,7 +124,11 @@
 
 
 
-@media screen and (max-width: 960px){
+@media screen and (max-width: 600px){
+    .footercontainer{
+        background: linear-gradient(0deg, #b0daf2  0% , #030f27 25%);
+    }
+
     .footerbox{
     
         position: relative;
@@ -110,4 +138,10 @@
         justify-content: center;
     }
 
+    .contactwrap{
+        position: relative;
+        display: grid;
+        justify-items: center;
+        margin-top: 20px;
+    }
 }

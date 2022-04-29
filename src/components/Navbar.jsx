@@ -1,19 +1,19 @@
-
 import '../style/Navbar.css'
 import { useState } from 'react'
 import { animateScroll as scroll } from "react-scroll"
+import { Link } from 'react-router-dom';
 
 
 
 
 
 
-const Navbar = () => {
+const Navbarnew = () => {
 
 
     const [openbar, setOpenbar] = useState(false)
 
-    const aopenbar = () =>{
+    const aopenbar = () => {
         if (openbar) {
             setOpenbar(false)
         } else {
@@ -39,45 +39,37 @@ const Navbar = () => {
 
     window.addEventListener('scroll', chngBackground)
 
-
-
-
     return (
 
         <nav className='navcontainer'>
-            
+
             <div className={scrollnav ? 'navbaritems active' : 'navbaritems'}>
-                <div className={scrollnav ? 'navbarlogo active' : 'navbarlogo'}onClick={toggleHome}>IEC</div>
-                
-                <div className={openbar ? 'navmenu active' : 'navmenu'}onClick={aopenbar}>
-                    <div className={scrollnav ? 'navitemhome active' : 'navitemhome'} onClick={toggleHome}>
-                        <div className={scrollnav ? 'nav-links active' : 'nav-links'} >
+                <div className={scrollnav ? 'navbarlogo active' : 'navbarlogo'} onClick={toggleHome}>IEC</div>
+
+                <div className={openbar ? 'navmenu active' : 'navmenu'} onClick={aopenbar}>
+                    <div className={scrollnav ? 'navitemhome active' : 'navitem'} onClick={toggleHome}>
+                        <Link to="/" className={scrollnav ? 'nav-links active' : 'nav-links'} >
                             Home
-                        </div>
+                        </Link>
                     </div>
-                    <div className="navitem">
-                        <div className={scrollnav ? 'nav-links active' : 'nav-links'}>
+                    <div className={scrollnav ? 'navitem active' : 'navitem'}>
+                        <Link to="/nosotros" className={scrollnav ? 'nav-links active' : 'nav-links'}>
                             Nosotros
-                        </div>
+                        </Link>
                     </div>
-                    <div className="navitem">
-                        <div className={scrollnav ? 'nav-links active' : 'nav-links'}>
+                    <div className={scrollnav ? 'navitem active' : 'navitem'}>
+                        <Link to="/servicios" className={scrollnav ? 'nav-links active' : 'nav-links'}>
                             Servicios
-                        </div>
+                        </Link>
                     </div>
-                    <div className="navitem">
-                        <div className={scrollnav ? 'nav-links active' : 'nav-links'}>
-                            Proyectos
-                        </div>
-                    </div>
-                    <div className="navitem">
-                        <div className={scrollnav ? 'nav-links active' : 'nav-links'}>
+                    <div className={scrollnav ? 'navitem active' : 'navitem'}>
+                        <Link to="/contacto" className={scrollnav ? 'nav-links active' : 'nav-links'}>
                             Contacto
-                        </div>
+                        </Link>
                     </div>
                 </div>
                 <div className='menuicon' >
-                    <i className={openbar ? 'fas fa-times' : 'fas fa-bars'}onClick={aopenbar}></i>
+                    <i className={openbar ? 'fas fa-times' : 'fas fa-bars'} onClick={aopenbar}></i>
                 </div>
             </div>
         </nav>
@@ -85,4 +77,4 @@ const Navbar = () => {
     )
 }
 
-export default Navbar
+export default Navbarnew

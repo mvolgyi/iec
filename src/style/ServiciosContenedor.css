@@ -1,7 +1,7 @@
 .contenedor-servicios{
   width: 1100px;
-  background-color:rgb(92, 63, 25);
-  margin:auto;
+  background-color: transparent;
+  margin:auto;;
 }
 
 .fila{
@@ -17,4 +17,10 @@
   justify-content: center;
   margin-bottom: 20px;
   margin-top: 10px;
+}
+
+@media screen and (max-width: 400px){
+  .contenedor-servicios{
+  width: 600px;
+  }
 }
