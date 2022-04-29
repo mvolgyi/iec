@@ -15,19 +15,19 @@ const Footer = () => {
                         </Link>
                     </div>
                     <div className='datawrap '>
-                        <div className='ftext'>
+                        <Link to='/servicios' className='ftext'>
                             Servicios
-                        </div>
+                        </Link>
                     </div>
                     <div className='datawrap'>
-                        <div className='ftext'>
+                        <Link to='/proyectos' className='ftext'>
                             Proyectos
-                        </div>
+                        </Link>
                     </div>
                     <div className='datawrap'>
-                        <div className='ftext'>
+                        <Link to='/contacto' className='ftext'>
                             Contacto
-                        </div>
+                        </Link>
                     </div>
                     </div>
                     <div className='contactwrap'>

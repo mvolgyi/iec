@@ -45,31 +45,36 @@ const Navbarnew = () => {
 
             <div className={scrollnav ? 'navbaritems active' : 'navbaritems'}>
                 <div className={scrollnav ? 'navbarlogo active' : 'navbarlogo'} onClick={toggleHome}>IEC</div>
+                <div className='navmenu'>
+                    <div className='headerbarmenu'>
+                        <div className={scrollnav ? 'logobar' : 'logobar'} onClick={toggleHome}>IEC</div>
+                        <div className='menuicon' >
+                            <div className={openbar ? 'fas fa-times' : 'fas fa-bars'} onClick={aopenbar}></div>
+                        </div>
+                    </div>
+                    <div className={openbar ? 'bodybarmenu active' : 'bodybarmenu'} >
+                        <div className={scrollnav ? 'navitemhome' : 'navitemhome active'} onClick={toggleHome}>
+                            <Link to="/" className={scrollnav ? 'nav-links active' : 'nav-links'} >
+                                Home
+                            </Link>
+                        </div>
+                        <div className={scrollnav ? 'navitem active' : 'navitem'}>
+                            <Link to="/nosotros" className={scrollnav ? 'nav-links active' : 'nav-links'}>
+                                Nosotros
+                            </Link>
+                        </div>
+                        <div className={scrollnav ? 'navitem active' : 'navitem'}>
+                            <Link to="/servicios" className={scrollnav ? 'nav-links active' : 'nav-links'}>
+                                Servicios
+                            </Link>
+                        </div>
+                        <div className={scrollnav ? 'navitem active' : 'navitem'}>
+                            <Link to="/contacto" className={scrollnav ? 'nav-links active' : 'nav-links'}>
+                                Contacto
+                            </Link>
+                        </div>
+                    </div>
 
-                <div className={openbar ? 'navmenu active' : 'navmenu'} onClick={aopenbar}>
-                    <div className={scrollnav ? 'navitemhome active' : 'navitem'} onClick={toggleHome}>
-                        <Link to="/" className={scrollnav ? 'nav-links active' : 'nav-links'} >
-                            Home
-                        </Link>
-                    </div>
-                    <div className={scrollnav ? 'navitem active' : 'navitem'}>
-                        <Link to="/nosotros" className={scrollnav ? 'nav-links active' : 'nav-links'}>
-                            Nosotros
-                        </Link>
-                    </div>
-                    <div className={scrollnav ? 'navitem active' : 'navitem'}>
-                        <Link to="/servicios" className={scrollnav ? 'nav-links active' : 'nav-links'}>
-                            Servicios
-                        </Link>
-                    </div>
-                    <div className={scrollnav ? 'navitem active' : 'navitem'}>
-                        <Link to="/contacto" className={scrollnav ? 'nav-links active' : 'nav-links'}>
-                            Contacto
-                        </Link>
-                    </div>
-                </div>
-                <div className='menuicon' >
-                    <i className={openbar ? 'fas fa-times' : 'fas fa-bars'} onClick={aopenbar}></i>
                 </div>
             </div>
         </nav>
