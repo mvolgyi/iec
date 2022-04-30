@@ -20,11 +20,6 @@ const Footer = () => {
                         </Link>
                     </div>
                     <div className='datawrap'>
-                        <Link to='/servicios' className='ftext'>
-                            Proyectos
-                        </Link>
-                    </div>
-                    <div className='datawrap'>
                         <Link to='/contacto' className='ftext'>
                             Contacto
                         </Link>
@@ -44,7 +39,7 @@ const Footer = () => {
 
                 </div>
                 <div className='copyfooter'>
-                    <p className='ctext'>© Instalaciones Eléctricas Correa. {new Date().getFullYear()} Todos los derechos reservados.</p>
+                    <p className='ctext'>©Instalaciones Eléctricas Correa. {new Date().getFullYear()} Todos los derechos reservados.</p>
 
                 </div>
             </nav>

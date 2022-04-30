@@ -68,6 +68,7 @@
 @media screen and (max-width: 600px){
 
   .carrouselcontainer{
+    background: #030f27;
     margin-top: 70px;
   }
 

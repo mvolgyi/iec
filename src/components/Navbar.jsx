@@ -11,17 +11,11 @@ import { Link } from 'react-router-dom';
 const Navbarnew = () => {
 
 
-    const [openbar, setOpenbar] = useState(false)
+    const [isOpen, setIsOpen] = useState(false)
 
-    const aopenbar = () => {
-        if (openbar) {
-            setOpenbar(false)
-        } else {
-            setOpenbar(true)
-        }
+    const openbar = () => {setIsOpen(!isOpen)}
 
-    }
-
+    
     const toggleHome = () => {
         scroll.scrollToTop()
     }
@@ -49,27 +43,27 @@ const Navbarnew = () => {
                     <div className='headerbarmenu'>
                         <div className={scrollnav ? 'logobar' : 'logobar'} onClick={toggleHome}>IEC</div>
                         <div className='menuicon' >
-                            <div className={openbar ? 'fas fa-times' : 'fas fa-bars'} onClick={aopenbar}></div>
+                            <div className={isOpen ? 'fas fa-times' : 'fas fa-bars'} onClick={openbar}></div>
                         </div>
                     </div>
-                    <div className={openbar ? 'bodybarmenu active' : 'bodybarmenu'} >
+                    <div className={isOpen ? 'bodybarmenu active' : 'bodybarmenu'}onClick={toggleHome} >
                         <div className={scrollnav ? 'navitemhome' : 'navitemhome active'} onClick={toggleHome}>
-                            <Link to="/" className={scrollnav ? 'nav-links active' : 'nav-links'} >
+                            <Link to="/" className={scrollnav ? 'nav-links active' : 'nav-links'} onClick={isOpen}>
                                 Home
                             </Link>
                         </div>
                         <div className={scrollnav ? 'navitem active' : 'navitem'}>
-                            <Link to="/nosotros" className={scrollnav ? 'nav-links active' : 'nav-links'}>
+                            <Link to="/nosotros" className={scrollnav ? 'nav-links active' : 'nav-links'}onClick={isOpen}>
                                 Nosotros
                             </Link>
                         </div>
                         <div className={scrollnav ? 'navitem active' : 'navitem'}>
-                            <Link to="/servicios" className={scrollnav ? 'nav-links active' : 'nav-links'}>
+                            <Link to="/servicios" className={scrollnav ? 'nav-links active' : 'nav-links'}onClick={isOpen}>
                                 Servicios
                             </Link>
                         </div>
                         <div className={scrollnav ? 'navitem active' : 'navitem'}>
-                            <Link to="/contacto" className={scrollnav ? 'nav-links active' : 'nav-links'}>
+                            <Link to="/contacto" className={scrollnav ? 'nav-links active' : 'nav-links'}onClick={isOpen}>
                                 Contacto
                             </Link>
                         </div>

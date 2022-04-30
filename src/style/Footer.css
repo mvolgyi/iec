@@ -4,6 +4,7 @@
     flex-direction: column;
     width: 100%;
     justify-items: space-between;
+    margin-top: 30px;
 }
 
 .footerbox{
@@ -106,11 +107,6 @@
 
 .fctext{
     font-size: 20px;
-    text-shadow: 0 0 8px #030f27,
-        0 0 16px #030f27,
-        0 0 32px #030f27,
-        0 0 32px #030f27,
-        0 0 50px #030f27;
 }
 
 .copyfooter{
@@ -127,7 +123,7 @@
 
 @media screen and (max-width: 600px){
     .footercontainer{
-        background: linear-gradient(0deg, #b0daf2  0% , #030f27 25%);
+        background: linear-gradient(0deg, #b0daf2  0% , #030f27 40%);
     }
 
     .footerbox{
@@ -145,4 +141,6 @@
         justify-items: center;
         margin-top: 20px;
     }
+
+
 }

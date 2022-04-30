@@ -89,4 +89,10 @@
      margin: 0;
     }
 
+    .aboutwrap{
+        display: grid;
+        padding: 15px;
+        max-width: 300px;
+        font-size: 0.8rem;
+    }
 }
