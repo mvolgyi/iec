@@ -1,7 +1,7 @@
 import React from 'react'
 import '../style/Proyectos.css'
 
-function Proyectos({ imagen, titulo, texto, texto2, texto3}) {
+function Proyectos({ imagen, titulo, texto}) {
   return (
 
     <div className="flip-box">
@@ -12,11 +12,7 @@ function Proyectos({ imagen, titulo, texto, texto2, texto3}) {
         <div className="flip-box-back">
           <div className='flip-box-texto'>
             <h2>{titulo}</h2>
-            <ul>           
-              <li>{texto}</li>
-              <li>{texto2}</li>
-              <li>{texto3}</li>
-            </ul>
+            <p>{texto}</p>
           </div>
         </div>
       </div>

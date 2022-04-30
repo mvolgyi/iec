@@ -11,17 +11,15 @@ function ProyectosContenedor() {
       <Proyectos 
       imagen='ford'
       titulo='Ford Pacheco 2020'
-      texto='Instalacion luminarias led'
-      texto2='y Tablero seccionador para nuevo kitting de ford Ranger'
-      texto3=''
+      texto='Instalacion luminarias led y Tablero seccionador para nuevo kitting de ford Ranger'
+      
 
       />
         <Proyectos 
       imagen='ford2'
       titulo='Ford Pacheco 2020'
-      texto='Instalacion de luminarias de columnas exteriores de iluminacion'
-      texto2='del dock de carga de planta montaje'
-      texto3=''
+      texto='Instalacion de luminarias de columnas exteriores de iluminacion del dock de carga de planta montaje'
+     
 
       />
 

@@ -17,6 +17,8 @@ position: relative;
 display: flex;
 align-items: center;
 justify-content: center;
+font-size: 4rem;
+
 }
 
 
@@ -39,12 +41,19 @@ background-color: #092348;
 .fondo-item-primario .valor-texto {
 color: #b0daf2;
 }
+.fondo-item-primario .valor-icono {
+  color: #b0daf2;
+}
+
 
 .fondo-item-secundario{
 background-color: #b0daf2;
 }
 .fondo-item-secundario .valor-texto {
 color: #092348;
+}
+.fondo-item-secundario .valor-icono {
+  color: #092348;
 }
 
 

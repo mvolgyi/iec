@@ -37,13 +37,14 @@
 .servicio-overlay p {
   margin: 0;
   color: #ffffff;
-  font-size: 1.3em;
+  font-size: 1.2em;
   width: 70%;
   
 }
 .servicio-text {
   display: flex;
   align-items: center;
+  justify-content: center;
   height: 60px;
   background: #092348;
   overflow: hidden;
@@ -82,4 +83,12 @@
 
 .servicio-item:hover a.btn {
   color: #092348;
+}
+
+@media screen and (max-width: 600px){
+  .servicio-text h3 {
+    padding: 3px 0 0 3px;
+    font-size: 13px;
+  }
+
 }

@@ -20,6 +20,8 @@
 }
 
 @media screen and (max-width: 600px){
-
+  .proyectos-titulo{
+  font-size: 1.5em;
+  }
 
 }

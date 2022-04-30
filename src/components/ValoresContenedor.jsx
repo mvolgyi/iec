@@ -8,17 +8,18 @@ function ValoresContenedor() {
       <ValoresInd 
       titulo='PROFESIONALIDAD'
       texto='Contamos con profesionales especializados'
-      esCasco={true}
+      icono='fa-helmet-safety'
       />
       <ValoresInd 
        titulo='SOLUCIONES'
        texto='Brindamos respuestas y soluciones en todo tipo de proyectos electricos'
-       esLamparita={true}
+       esCentral={true}
+       icono='fa-lightbulb'
        />
       <ValoresInd 
        titulo='SEGURIDAD'
        texto='Nuestros servicios apuntan al uso eficiente y seguro de la energía'
-       imagen='faHelmetSafety'
+       icono='fa-wrench'
        />
     </div>
   )
