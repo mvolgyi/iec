@@ -50,20 +50,17 @@
   font-size: 30px;
   margin-bottom: 15px;
   letter-spacing: 1px;
-  text-shadow: 1px -1px 0px #092348, 
-               2px -2px 0px black , 
-               3px 1px 0px #b0daf2;
-  color: #2b7bb0;
+  text-shadow: 1px 1px 0px #092348, 
+               2px 2px 0px black;
 }
 
 .carousel .carousel-caption h1 {
-  color: #b0daf2;
+  color: #e0b234;
   font-size: 60px;
   font-weight: 700;
   margin-bottom: 35px;
-  text-shadow: 3px 3px 0px #2b7bb0, 
-               6px 6px 0px #092348 , 
-               9px 9px 0px black;
+  text-shadow: 3px 3px 0px #092348 , 
+               6px 6px 0px black;
                
                  
 }
