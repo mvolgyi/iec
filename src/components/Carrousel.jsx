@@ -11,7 +11,7 @@ import 'aos/dist/aos.css';
 function Carrousel(){
   AOS.init()
   return (
-    <div>
+    <nav className='carrouselcontainer'>
       <Carousel 
       infiniteLoop={true}
       showThumbs={false}
@@ -33,6 +33,7 @@ function Carrousel(){
             <p data-aos="fade-left" data-aos-duration="1000">Diseñamos y Desarrollamos proyectos de</p>
             <h1 data-aos="fade-right" data-aos-duration="1500">Ingeniería Eléctrica</h1>
           </div>
+          
         </div> 
         <div >
           <img src={tablero} alt="Imagen Tablero Eléctrico"/>
@@ -43,7 +44,7 @@ function Carrousel(){
         </div> 
         
       </Carousel>
-    </div>
+    </nav>
   )
 }
 

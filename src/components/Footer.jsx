@@ -20,7 +20,7 @@ const Footer = () => {
                         </Link>
                     </div>
                     <div className='datawrap'>
-                        <Link to='/proyectos' className='ftext'>
+                        <Link to='/servicios' className='ftext'>
                             Proyectos
                         </Link>
                     </div>

@@ -36,7 +36,7 @@
   position: absolute;
   top: 0;
   bottom: 0;
-  left:32%;
+  width: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -46,13 +46,14 @@
 }
 
 .carousel .carousel-caption p {
-  color: #2b7bb0;
+  color: #e0b234;
   font-size: 30px;
   margin-bottom: 15px;
   letter-spacing: 1px;
-  text-shadow: 1px -1px 0px #092348, 
+  /*text-shadow: 1px -1px 0px #092348, 
                2px -2px 0px black , 
                3px 1px 0px #b0daf2;
+  color: #2b7bb0;*/
 }
 
 .carousel .carousel-caption h1 {
@@ -60,9 +61,21 @@
   font-size: 60px;
   font-weight: 700;
   margin-bottom: 35px;
-  text-shadow: 3px 3px 0px #2b7bb0, 
+  /*text-shadow: 3px 3px 0px #2b7bb0, 
                6px 6px 0px #092348 , 
-               9px 9px 0px black;
+               9px 9px 0px black;*/
                
                  
 }
+
+@media screen and (max-width: 600px){
+
+  .carrouselcontainer{
+    margin-top: 70px;
+  }
+
+
+}
+
+
+

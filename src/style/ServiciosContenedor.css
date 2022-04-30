@@ -11,7 +11,7 @@
 }
 .servicios-titulo{
   color: #b0daf2;
-  font-size: 2.5em;
+  font-size: 3rem;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -19,8 +19,14 @@
   margin-top: 10px;
 }
 
-@media screen and (max-width: 400px){
+@media screen and (max-width: 600px){
   .contenedor-servicios{
-  width: 600px;
+  width: 100%;
   }
+
+  .fila{
+    flex-direction: column;
+    align-items: center;
+  }
+
 }

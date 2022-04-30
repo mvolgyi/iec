@@ -4,6 +4,7 @@ import '../style/ProyectosContenedor.css';
 
 function ProyectosContenedor() {
   return (
+    <nav className='proyectowrap'>
     <div className='proyectos-contenedor'>
       <h1 className='proyectos-titulo'>Algunos de Nuestros Proyectos</h1>
       <div className='fila'>
@@ -27,6 +28,7 @@ function ProyectosContenedor() {
     
       </div>
     </div>
+    </nav>
   )
 }
 

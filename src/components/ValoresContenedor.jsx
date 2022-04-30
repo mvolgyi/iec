@@ -7,7 +7,7 @@ function ValoresContenedor() {
     <div className="contenedor-valores">
       <ValoresInd 
       titulo='PROFESIONALIDAD'
-      texto='Contamos con profesionales especializados en proyectos de ingeniería eléctrica y automatismo industrial'
+      texto='Contamos con profesionales especializados'
       esCasco={true}
       />
       <ValoresInd 

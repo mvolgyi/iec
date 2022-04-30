@@ -1,12 +1,10 @@
 .valor-item{
-  width: 290px;
+  width: 310px;
   padding: 30px;
   display: flex;
   align-items: center;
   justify-content: flex-start;
-  border-radius: 25px;
-  border: 1px solid #fdbe33;
-  margin: 0 10px;
+
 }
 
 .valor-item:hover {
@@ -47,4 +45,15 @@ background-color: #b0daf2;
 }
 .fondo-item-secundario .valor-texto {
 color: #092348;
+}
+
+
+@media screen and (max-width: 600px){
+
+.contenedor-valores{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 }
