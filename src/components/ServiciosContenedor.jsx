@@ -1,11 +1,11 @@
 import React from 'react'
 import Servicios from './Servicios'
 import '../style/ServiciosContenedor.css';
-import AOS from 'aos';
+
 import 'aos/dist/aos.css';
 
 function ServiciosContenedor() {
-  AOS.init()
+
   return (
     <nav>
     <div className='contenedor-servicios'>

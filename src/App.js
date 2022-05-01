@@ -11,13 +11,14 @@ import ServiciosPages from './pages/ServiciosPages';
 import Particles from "react-tsparticles";
 import { loadFull } from "tsparticles";
 import particlesOptions from "./assets/particles.json";
+import AOS from 'aos';
 
 
 function App() {
   const particlesInit = useCallback(main => {
     loadFull(main);
     }, [])
-
+    AOS.init()
 
   return (
     <div className="App">

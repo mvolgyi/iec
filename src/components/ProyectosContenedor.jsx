@@ -6,7 +6,7 @@ function ProyectosContenedor() {
   return (
     <nav className='proyectowrap'>
     <div className='proyectos-contenedor'>
-      <h1 className='proyectos-titulo'>Algunos de Nuestros Proyectos</h1>
+      <h1 className='proyectos-titulo' data-aos="zoom-in" data-aos-duration="2500">Algunos de Nuestros Proyectos</h1>
       <div className='fila'>
       <Proyectos 
       imagen='ford'
