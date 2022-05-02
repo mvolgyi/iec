@@ -7,6 +7,8 @@
     margin-top: 30px;
 }
 
+
+
 .footerbox{
     position: relative;
     margin-top: 30px;
@@ -18,12 +20,16 @@
     padding-bottom: 10px;
 }
 
+
+
 .infowrap{
     display: flex;
     justify-content: center ;
     align-items:center ;
     padding: 0 5px;
 }
+
+
 
 .datawrap{
     display: grid;
@@ -32,11 +38,13 @@
     text-align: center;
     border-left-style: solid ;
 }
-.datawrapn{
+.datawrap-n{
     display: grid;
     justify-items: center;
     text-align: center;
 }
+
+
 
 .ftext{
     color: #ffffff;
@@ -45,69 +53,51 @@
     padding: 3px 10px;
     text-decoration: none;
 }
-.ctext{
-    font-size: 20px;
-    padding: 0 10px;
-}
 .ftext:hover{
     transition: 0.1s all ease-in-out;
     transform: scale(1.02);
     opacity: 0.6;
 }
+.ctext{
+    font-size: 20px;
+    padding: 0 10px;
+}
+
+
+
 .contactwrap{
     position: relative;
     display: grid;
     justify-items: flex-end;
 }
 
+
+
 .ctitulo{
     color: #fdbe33;
 }
+
+
 
 .datacwrap{
     display: flex;
     justify-items: center;
 }
 
-.fa-business-time{
-    font-size: 20px;
-    padding-top: 5px;
-    margin-right: 10px;
-}
 
-.fa-mobile-screen-button{
-    font-size: 20px;
-    padding-top: 5px;
-    margin-right: 10px;
-}
-
-.fa-envelopes-bulk{
-    font-size: 20px;
-    padding-top: 5px;
-    margin-right: 10px;
-}
-
-.fa-map{
-    font-size: 20px;
-    padding-top: 5px;
-    margin-right: 10px;
-}
 
 .fa-phone-flip{
     font-size: 20px;
     padding-top: 5px;
     margin-right: 10px;
 }
-
 .fa-envelope-open-text{
     font-size: 20px;
     padding-top: 5px;
     margin-right: 10px;
 }
 
-.fctext{
-    font-size: 20px;
-}
+
 
 .copyfooter{
     justify-items: flex-start;
@@ -119,15 +109,17 @@
 
 
 
-
-
+.fctext{
+    font-size: 20px;
+}
 @media screen and (max-width: 600px){
     .footercontainer{
         background: linear-gradient(0deg, #b0daf2  0% , #030f27 40%);
     }
 
-    .footerbox{
-    
+
+
+    .footerbox{   
         position: relative;
         color: #ffffff;
         display: grid;
@@ -135,12 +127,12 @@
         justify-content: center;
     }
 
+
+
     .contactwrap{
         position: relative;
         display: grid;
         justify-items: center;
         margin-top: 20px;
     }
-
-
 }

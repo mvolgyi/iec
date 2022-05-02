@@ -10,6 +10,8 @@
     transition: 0.1s all ease;
 }
 
+
+
 .navbaritems{
     background: rgba(3,15,39,0.5);
     display: flex;
@@ -28,6 +30,8 @@
     transition: 0.2s all ease-in-out;
 }
 
+
+
 .navbarlogo{
     transition: 0.3s all ease-in-out;
     display: contents;
@@ -36,15 +40,12 @@
     cursor:pointer;
     padding: 15px 0;
 }
-
 .navbarlogo.active{
     display: none;
     transition: 0.3s all ease-in-out;
 }
 
-.headerbarmenu{
-    display: none;
-}
+
 
 .navmenu{
     font-size: 1.2rem;
@@ -55,11 +56,41 @@
     transition: 0.3s all ease-in-out; 
 }
 
+
+
+.headerbarmenu{
+    display: none;
+}
+
+
+
 .bodybarmenu{
     display: flex;
     align-items: center;
     height: 100%
 }
+
+
+
+.navitemhome{
+    border: none;
+}
+.navitemhome.active{
+    border: none;
+}
+
+
+
+.navitem{
+    border: none;
+ 
+}
+.navitem.active{
+    border-left-style:solid;
+    border-color:#fdbe33;
+}
+
+
 
 .nav-links{
     color:#fdbe33;
@@ -70,57 +101,40 @@
 .nav-links.active{
     margin: 0 20px;
 }
-
-
 .nav-links:hover{
     transition: 0.1s all ease-in-out;
     transform: scale(1.02);
     opacity: 0.6;
     border-bottom-style:solid;
 }
-
 .nav-links.active:hover{
     transition: 0.1s all ease-in-out;
     transform: scale(1.08);
     opacity: 0.6;
-    border: none;
-    
+    border: none;    
 }
 
-.navitemhome{
-    border: none;
-}
 
-.navitemhome.active{
-    border: none;
-}
 
-.navitem{
-    border: none;
- 
-}
-.navitem.active{
-    border-left-style:solid;
-    border-color:#fdbe33;
-
-}
 .menuicon{
     display: none;
 }
-
 .fa-bars{
     color: #fdbe33;
 }
-
 .fa-times{
     color: #fdbe33;
 }
+
+
 
 @media screen and (max-width: 600px){
     .navcontainer{
         height: 70px;
         width: 100%;
     }   
+
+
 
     .navbaritems{
         background: #030f27;
@@ -132,7 +146,6 @@
         padding: 0 ;
         max-width: 1800px;
     }
-
     .navbaritems.active{
         background: #030f27;
         height: 75px;
@@ -143,9 +156,14 @@
         padding: 0 ;
         max-width: 1800px;
     }
+
+
+
     .navbarlogo{
         display: none;
      }
+
+
 
     .navmenu{
         display: flex;
@@ -155,7 +173,6 @@
         z-index: 1;
         justify-content: flex-start;
         margin-top: 0px;
-    
        }
     .navmenu.active{
         display: flex;
@@ -168,6 +185,7 @@
     }
 
     
+
     .headerbarmenu{
         margin-top: -20px;
         justify-self: flex-start;
@@ -178,6 +196,8 @@
         z-index: 2;
     }
 
+
+
     .logobar{
         color: #fdbe33;
         font-size: 2rem;
@@ -186,6 +206,9 @@
         align-content: center;
         justify-self: flex-start;
     }
+
+
+
     .menuicon{
         display: flex;
         align-items: center;
@@ -194,6 +217,8 @@
         font-size: 1.9rem;
         cursor: pointer;
     }
+
+
 
     .bodybarmenu{
         display: none;
@@ -206,6 +231,8 @@
         flex-direction: column;
         justify-items: flex-start;
     }
+
+
 
     .navitemhome{
         background:#030f27;
@@ -226,6 +253,8 @@
         padding: 15px 0;
     }
 
+
+    
     .nav-links{
     border: none;
     height: 50px;
