@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/mvolgyi.github.io/iec/static/css/main.250db92e.css",
+    "main.js": "/mvolgyi.github.io/iec/static/js/main.3dac6b4c.js",
+    "static/js/937.bc13a831.chunk.js": "/mvolgyi.github.io/iec/static/js/937.bc13a831.chunk.js",
+    "static/media/Proyectos.jpg": "/mvolgyi.github.io/iec/static/media/Proyectos.6b47f0e8df2e9b18a069.jpg",
+    "static/media/service-2.jpg": "/mvolgyi.github.io/iec/static/media/service-2.953a78e8d274a422995e.jpg",
+    "static/media/service-3.jpg": "/mvolgyi.github.io/iec/static/media/service-3.cec49df695dcf19e90e5.jpg",
+    "static/media/Tablero.jpg": "/mvolgyi.github.io/iec/static/media/Tablero.611a7b2fe00505715b3d.jpg",
+    "static/media/service-1.jpg": "/mvolgyi.github.io/iec/static/media/service-1.4b9041b60ab95ab9286d.jpg",
+    "static/media/service-4.jpg": "/mvolgyi.github.io/iec/static/media/service-4.efb6e48b0e95a2f41220.jpg",
+    "static/media/Ingenieria.jpg": "/mvolgyi.github.io/iec/static/media/Ingenieria.707e38690e496c1aa706.jpg",
+    "static/media/service1.jpg": "/mvolgyi.github.io/iec/static/media/service1.34ce6ff027a590a9991f.jpg",
+    "static/media/ford2.jpg": "/mvolgyi.github.io/iec/static/media/ford2.69b080207d78351797a6.jpg",
+    "static/media/ford.jpg": "/mvolgyi.github.io/iec/static/media/ford.59afa8580b6d7b73cf98.jpg",
+    "index.html": "/mvolgyi.github.io/iec/index.html",
+    "main.250db92e.css.map": "/mvolgyi.github.io/iec/static/css/main.250db92e.css.map",
+    "main.3dac6b4c.js.map": "/mvolgyi.github.io/iec/static/js/main.3dac6b4c.js.map",
+    "937.bc13a831.chunk.js.map": "/mvolgyi.github.io/iec/static/js/937.bc13a831.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.250db92e.css",
+    "static/js/main.3dac6b4c.js"
+  ]
+}
